@@ -1,0 +1,54 @@
+body{
+    background-color:darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    height: 100vh;
+
+}
+.display{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 50px;
+     
+}
+.imageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.imageContainer img{
+    width: 600px;
+    border-radius: 10px;
+   
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;   
+    padding-top: 20px;
+    
+}
+
+   button{
+    color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: green;
+	padding: 20px;
+	border-radius: 50px;
+	border-color: indianred;
+	transition: all 0.4s ease 0s;  
+    margin-right: 20px;
+}
+button:hover{
+    color:black !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+    transition: all 0.3s ease 0s;
+	
+    
+}
