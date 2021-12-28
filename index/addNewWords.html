@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new words</title>
+    <link href="../css/addNewwords.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class = "display">
+    <h1>Add your new words here</h1>
+    
+     
+        <div class= "creatbox">
+            <div id = "error" style="display: none;" ></div>
+            <div id = "saved" style="display: none;" ></div>
+            <input type="text" id = "question" placeholder="type new word"><br>
+            <textarea id = "answer" rows="4" cols="50" placeholder="Enter the meaning of the word here..."></textarea>
+
+           
+            <button id = "save" onclick="saveWord()">Click here to save</button>
+          
+
+            <a href="../html/index.html" >
+                <button  class="btn2">Back to home</button>
+            </a>
+        </div>
+        
+    </div>
+    <script src="../script/addNewWords.js"></script>
+</body>
+</html>

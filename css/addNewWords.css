@@ -1,0 +1,111 @@
+body{
+    background-color: red;
+}
+ ::-webkit-input-placeholder {
+    color: tan;
+     font-size: 15px;
+     font-weight: 700;
+     font-family: 'Courier New', Courier, monospace;
+     text-transform: uppercase;
+     
+}
+input{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    
+}
+textarea{
+    border: 5px solid;
+    border-radius: 20px;
+    height: 100px;
+    border-color:white;
+    width: 80%;
+    background-color: black;
+    color: white;
+    
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:darkcyan;
+    background-size: 600px;
+    background-attachment: fixed;
+    height: 100vh;
+  
+    
+    
+}
+button{
+    color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: green;
+	padding: 20px;
+	border-radius: 50px;
+	border-color: indianred;
+	transition: all 0.4s ease 0s;  
+    margin-top: 20px;
+    
+}
+button:hover{
+    color:black !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+    transition: all 0.3s ease 0s;
+	
+    
+}
+	
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px
+}
+.creatbox{
+    
+    box-shadow: 3px 5px 8px 3px rgba(29, 14, 113, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+#error{
+  width: 90%;
+  padding: 10px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: red;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700px;
+
+}
+#saved{
+    width: 100%;
+    padding: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: green;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700px;
+  
+  }
